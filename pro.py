@@ -62,7 +62,9 @@ arg_template = {
 
 txn_parser = subparsers.add_parser("generator", help="Generate re-order lists")
 txn_parser.add_argument(**arg_template)
-parser.add_argument("--version", action="version", version="%(prog)s version 0.1.0")
+parser.add_argument(
+    "-v", "--version", action="version", version="%(prog)s version 0.1.0"
+)
 parser.add_argument(
     "-h",
     "--help",
