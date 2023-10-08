@@ -6,3 +6,5 @@ Supplied with two excel files, it extracts the common and uncommon items between
 After cloning repo, cd into directory and run `pip install -r requirements.txt`
 
 Code can be run via the script or using the CLI app as thus: `python pro.py generator [Path to wholesalers list] [Path to your list]`
+
+For full understanding of CLI app, run `python pro.py generator -h`
